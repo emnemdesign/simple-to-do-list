@@ -1,9 +1,10 @@
 html { 
   font-family: sans-serif; 
   font-size: 300%; 
-  line-height: 1.5; 
+  line-height: 1.5;
+  box-sizing: border-box; 
 
-} 
+}
 
 a { 
   border-bottom: 0.1em solid rgba(68, 132, 194, .4); 

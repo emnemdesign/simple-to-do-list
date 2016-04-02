@@ -9,6 +9,6 @@ $('form').on('submit', function (e) {
   $list.append($li);
 });
 
-$('form').on('click', 'li', function (e) {
+$('ul').on('click', 'li', function (e) {
   $(this).toggleClass('is-clicked');
 });
